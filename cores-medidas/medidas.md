@@ -47,7 +47,13 @@ left: -2122px;
 gap: 0px;
 opacity: 0px;
 
-botão- central
+botão-
+circulo-
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    
+ central
 width: 336px;
 height: 45px;
 top: 586px;
