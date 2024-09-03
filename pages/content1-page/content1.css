@@ -1,0 +1,78 @@
+
+
+body{
+    min-width: 375px;
+    max-width: 1920px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    width: 632px;
+    height: 558.29px;
+    top: -151px;
+    left: -1671px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+p{ 
+    font-family:"Inter",sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22.99px;
+    text-align: left;
+    color: #000000;
+     
+}
+
+.bt-container2{
+    margin-top: 20px;
+}
+
+
+#button1-content1{
+    background-color: #FF6064;
+    width: 45px;
+    height: 20px;
+    top: 537px;
+    left: -1427px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 80%;
+    width: 40px;
+    height: 30px;
+    border-style: none;
+
+}
+#button2-content1 , #button3-content1{
+    background-color:#D9D9D9;
+    width: 28px;
+    height: 28px;
+    top: 533px;
+    left: -1369px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    border-style: none;
+  
+}
+
+
+#buttonMain-content1{
+    font-family:"Inter",sans-serif;
+    background-color: #FF6064;
+    color:#FFFFFF;
+
+    width: 336px;
+    height: 45px;
+    top: 586px;
+    left: -1521px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 50px;
+    border-style: none;
+    
+}
