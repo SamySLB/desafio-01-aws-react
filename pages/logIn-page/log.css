@@ -1,0 +1,78 @@
+body{
+    min-width: 375px;
+    max-width: 1920px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.seta-imagem-LogIn{
+    margin-right: 1000px;
+    width: 39px;
+    height: 31.42px;
+    top: 3466.42px;
+    left: -2122px;
+    gap: 0px;
+    opacity: 0px;
+    filter:invert(100%) saturate(0%);
+  
+}  
+.redes{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#button1-LogIn, #button2-LogIn, #button3-LogIn{
+    font-family:"Inter",sans-serif;
+    margin-bottom: 20px;
+    width: 336px;
+    height: 45px;
+    top: 586px;
+    left: -1521px;
+    border-radius: 50px;
+    border-color: #000000;
+    background-color:#FFFFFF;
+}
+#button1-LogIn:active, #button2-LogIn:active, #button3-LogIn:active {
+    background-color:#D9D9D9; 
+}
+
+p{ 
+    font-family:"Inter",sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22.99px;
+    text-align: center;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+     
+}
+
+.bt-container2-content3{
+    margin-top: 20px;
+}
+
+#buttonMain-LogIn{
+    font-family:"Inter",sans-serif;
+    background-color: #FF6064;
+    color:#FFFFFF;
+    width: 336px;
+    height: 45px;
+    top: 586px;
+    left: -1521px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 50px;
+    border-style: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    
+}
+#buttonMain-LogIn:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#color-a{
+    color:#FF6064;
+}
