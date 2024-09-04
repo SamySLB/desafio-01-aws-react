@@ -9,9 +9,9 @@ body{
 }
 img{
    max-width: 500px;
-    max-height: 443.33px;
+    min-height: fit-content;
     min-width: 100px;
-    max-height: fit-content;
+    max-height:fit-content;
     top: 5009px;
     left: -2050px;
     gap: 0px;
@@ -21,8 +21,8 @@ img{
 .form-content{
     background-color:#FFFFFF ;
     border-radius: 5%;
-    width: auto;
-    height: auto;
+    width: fit-content;
+    height: fit-content;
     top: 4893px;
     left: -1217px;
     padding-bottom: 20px;
