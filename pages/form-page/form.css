@@ -1,0 +1,104 @@
+body{
+    min-width: 375px;
+    max-width: 1920px;
+    margin-top: 20px;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    background-color:#FF6064 ;
+}
+img{
+   max-width: 500px;
+    max-height: 443.33px;
+    min-width: 100px;
+    max-height: fit-content;
+    top: 5009px;
+    left: -2050px;
+    gap: 0px;
+    opacity: 0px;
+    margin-right:20%;
+}
+.form-content{
+    background-color:#FFFFFF ;
+    border-radius: 5%;
+    width: auto;
+    height: auto;
+    top: 4893px;
+    left: -1217px;
+    padding-bottom: 20px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+.form-content1{
+    font-family:"Inter",sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    color: #000000;
+    text-align: left;
+    margin:10px;
+    padding: 30px;
+}
+#nome,#email,#pass,#pass1{
+    font-family:"Inter",sans-serif;
+    font-size: 20px;
+    background-color:#FFFFFF;
+    color: #FF6064;
+    width: 300px;
+    height: 40px;
+    padding: 2px;
+    top: 586px;
+    left: -1521px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 50px;
+    border-width: 2px;
+    border-color: #000000;
+}
+
+h1{
+    font-family:"Inter",sans-serif;
+    font-weight: 300;
+    padding: 20px;
+    margin:20px;
+}
+#button1-forms{
+    margin-top: 20px;
+    margin-left:20px;
+    font-family:"Inter",sans-serif;
+    background-color: #FFFFFF;
+    color: #000;;
+    width: 120px;
+    height: 45px;
+    top: 586px;
+    left: -1521px;
+    border-radius: 50px;
+    border-width: 2px;
+    border-color: #000000;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
+}
+ #button2-forms{
+    margin-top: 20px;
+    margin-left:20px;
+    font-family:"Inter",sans-serif;
+    background-color: #FF6064;
+    color:#FFFFFF;
+    width: 120px;
+    height: 45px;
+    top: 586px;
+    left: -1521px;
+    border-radius: 50px;
+    border-style: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    
+}
+#button1-forms:hover,#button2-forms:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
