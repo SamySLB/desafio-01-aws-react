@@ -15,8 +15,13 @@ body{
     gap: 0px;
     opacity: 0px;
     filter:invert(100%) saturate(0%);
-  
+    transition: filter 0.3s ease;
 }
+#seta-content2:hover {
+    filter: invert(100%) sepia(50%) hue-rotate(200deg) saturate(400%);
+    opacity: 1; 
+}
+
    
 img #img1-content2{
     width: 632px;
