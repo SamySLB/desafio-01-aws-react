@@ -19,8 +19,15 @@ h1{
     gap: 0px;
     opacity: 0px;
     filter:invert(100%) saturate(0%);
+    filter:invert(100%) saturate(0%);
+    transition: filter 0.3s ease;
+}
+.seta-imagem-LogIn:hover {
+    filter: invert(100%) sepia(50%) hue-rotate(200deg) saturate(400%);
+    opacity: 1; 
+}
   
-}  
+
 .redes{
     display:flex;
     flex-direction: column;
