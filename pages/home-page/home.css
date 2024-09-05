@@ -1,5 +1,5 @@
 body{
-    min-width: 375px;
+   
     max-width: 1920px;
     margin-top: 20px;
     display:flex;
@@ -18,6 +18,20 @@ img{
     opacity: 0px;
     margin-right:20%;
 }
+@media(max-width:375px){
+    body{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:#FF6064 ;
+    } 
+    img{
+       display:none; 
+    } 
+  
+    
+}
+
 .home-content{
     background:linear-gradient(#FFFFFF,#FF6064);
     border-radius: 5%;

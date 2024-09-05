@@ -93,3 +93,16 @@ p{
 #buttonMain-content3:hover{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
+@media(max-width=375px){
+    p{ 
+        font-family:"Inter",sans-serif;
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 22.99px;
+        margin-left:20px;
+        text-align: center;
+        color: #000000;
+         
+    
+    }
+}

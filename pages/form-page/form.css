@@ -1,5 +1,4 @@
 body{
-    min-width: 375px;
     max-width: 1920px;
     margin-top: 20px;
     display:flex;
@@ -17,6 +16,26 @@ img{
     gap: 0px;
     opacity: 0px;
     margin-right:20%;
+}
+
+@media(max-width:375px){
+    body{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:#FF6064 ;
+    }  
+    img{
+        max-width: 300px;
+         min-height: fit-content;
+         min-width: 200px;
+         max-height:fit-content;
+         top: 5009px;
+         left: -2050px;
+         gap: 0px;
+         opacity: 0px;
+         margin-right:20%;
+     }
 }
 
 .form-content{
