@@ -87,6 +87,7 @@ function cadastrar(){
         )
 
         localStorage.setItem('listaUser', JSON.stringify(listaUser))
+        alert('usuário cadastrado')
 
         window.location.replace('http://127.0.0.1:5500/pages/home-page/home.html')
     }
