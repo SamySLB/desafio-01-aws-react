@@ -1,7 +1,8 @@
 
+window.addEventListener('load',function mostrarCadastro(){
+   var localsto = localStorage.getItem('listaUser' );
+    document.body.querySelector("#dadosSucesso").innerHTML = `${localsto}` ;
+  
+    
+})
 
-function mostrarCadastro(){
-    var localsto = localStorage.getItem('listaUser' );
-    console.log(localsto)
-    document.body.querySelector("#dadosSucesso").innerHTML = localsto;
-}
