@@ -77,14 +77,13 @@ function cadastrar(){
     if(validNome && validEmail && validSenha && validSenha1){
         let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
 
-        listaUser.push(
-            {
-                nomeCadastro: nome.value,
-                emailCadastro: email.value,
-                senhaCad: senha.value
-              
-            }
-        )
+        const novoUsuario = {
+            nomeCadastro: nome.value,
+            emailCadastro: email.value,
+            senhaCad: senha.value
+        };
+        listaUser.push(novoUsuario);
+            
 
         localStorage.setItem('listaUser', JSON.stringify(listaUser))
         alert('usuário cadastrado')
