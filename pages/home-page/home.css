@@ -4,7 +4,7 @@ body{
     margin-top: 20px;
     display:flex;
     flex-direction: row;
-    align-items:center;
+    align-items: center;
     background-color:#FF6064 ;
 }
 img{
@@ -41,6 +41,21 @@ h2{
     display:flex;
     flex-direction: column;
     align-items: center;
+}
+button{
+    margin-top: 430px;
+    margin-left:20px;
+    font-family:"Inter",sans-serif;
+    background-color: #FFFFFF;
+    color: #FF6064;
+    width: 120px;
+    height: 45px;
+    top: 586px;
+    left: -1521px;
+    border-radius: 50px;
+    border-style: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 @media(max-width:375px){
     body{

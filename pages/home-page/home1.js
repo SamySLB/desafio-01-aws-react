@@ -20,6 +20,7 @@ window.addEventListener('load', function mostrarCadastro() {
                 // Adiciona os dados de cada usuário ao HTML
                 html += `
                     <div>
+                         <h3>Usuário Cadastrado com Sucesso!</h3>
                         <h3 style="color:#00000">Usuário ${index + 1}</h3>
                         <h2 style="color:gray"><strong>Nome:</strong> ${nome}</h2>
                         <h2 style="color:gray"><strong>E-mail:</strong> ${email}</h2>
@@ -32,15 +33,9 @@ window.addEventListener('load', function mostrarCadastro() {
             // Exibe todos os usuários cadastrados
             dadosSucesso.innerHTML = html;
 
-        } else {
-            // Caso não haja usuários cadastrados
-            dadosSucesso.innerHTML = `<p>Nenhum usuário cadastrado.</p>`;
-        }
+        } 
 
-    } else {
-        // Caso não haja dados no localStorage
-        dadosSucesso.innerHTML = `<p>Nenhum dado encontrado.</p>`;
-    }
+    } 
 });
 
 

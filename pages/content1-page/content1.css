@@ -1,5 +1,4 @@
 
-
 body{
     min-width: 375px;
     max-width: 1920px;
@@ -16,26 +15,6 @@ img{
     gap: 0px;
     opacity: 0px;
 
-}
-@media(max-width:375px){
-    img{
-        width: 250px;
-        height: 300px;
-        top: -151px;
-        left: -1671px;
-        gap: 0px;
-        opacity: 0px;
-    }
-    p{ 
-        font-family:"Inter",sans-serif;
-        font-size: 15px;
-        font-weight: 300;
-        line-height: 20.0px;
-        text-align: left;
-        color: #000000;
-         
-    }
-    
 }
 p{ 
     font-family:"Inter",sans-serif;
@@ -103,4 +82,23 @@ p{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
     
-
+@media(max-width:375px){
+    img{
+        width: 250px;
+        height: 300px;
+        top: -151px;
+        left: -1671px;
+        gap: 0px;
+        opacity: 0px;
+    }
+    p{ 
+        font-family:"Inter",sans-serif;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 20.0px;
+        text-align: left;
+        color: #000000;
+         
+    }
+    
+}
