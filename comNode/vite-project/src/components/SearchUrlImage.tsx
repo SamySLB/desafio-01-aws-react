@@ -36,15 +36,27 @@ const SearchUrlImage: React.FC<ContentPageProps> = ({ contentKey }) => {
     content3: "/", 
   };
 
+  const AfterPage = {
+    content1: "/",
+    content2: "/content3",
+    content3:  "/content2", 
+  };
+
   return (
-    <div className="content-page">
-      <img src={url} alt={text} className="image" />
-      <p>{text}</p>
-      <button></button>
-      <button></button>
-      <button></button>
-      <button onClick={() => navigate(nextPage[contentKey])}>Next</button>
-    </div>
+   <>
+          <button onClick={() => navigate(AfterPage[contentKey])}>After</button>
+            <div className="content-page">
+            
+                <img src={url} alt={text} className="image" />
+                 <p>{text}</p>
+                       <div>
+                    <button></button>
+                    <button></button>
+                    <button></button>
+                        </div>
+                <button onClick={() => navigate(nextPage[contentKey])}>Next</button>
+            </div>
+    </>
   );
 };
 
