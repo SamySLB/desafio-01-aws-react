@@ -1,5 +1,5 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 interface ImageData {
   url: string;
@@ -18,9 +18,8 @@ const imageDatabase: { [key: string]: ImageData } = {
   content3: {
     url: "/assets/imagem-content3.png",
     text: "Boost your productivity now & be successful",
-  }
+  },
 };
-
 
 interface ContentPageProps {
   contentKey: string;
@@ -33,32 +32,39 @@ const SearchUrlImage: React.FC<ContentPageProps> = ({ contentKey }) => {
   const nextPage = {
     content1: "/content2",
     content2: "/content3",
-    content3: "/", 
+    content3: "/login", 
   };
 
   const AfterPage = {
     content1: "/",
-    content2: "/content3",
-    content3:  "/content2", 
+    content2: "/content1",
+    content3: "/content2",
   };
 
+  
+  useEffect(() => {
+    if (contentKey === "content3") {
+      setTimeout(() => {
+        navigate("/login"); 
+      }, 3000);
+    }
+  }, [contentKey, navigate]);
+
   return (
-   <>
-          <button onClick={() => navigate(AfterPage[contentKey])}>After</button>
-            <div className="content-page">
-            
-                <img src={url} alt={text} className="image" />
-                 <p>{text}</p>
-                       <div>
-                    <button></button>
-                    <button></button>
-                    <button></button>
-                        </div>
-                <button onClick={() => navigate(nextPage[contentKey])}>Next</button>
-            </div>
+    <>
+      <button onClick={() => navigate(AfterPage[contentKey])}>After</button>
+      <div className="content-page">
+        <img src={url} alt={text} className="image" />
+        <p>{text}</p>
+        <div>
+          <button></button>
+          <button></button>
+          <button></button>
+        </div>
+        <button onClick={() => navigate(nextPage[contentKey])}>Next</button>
+      </div>
     </>
   );
 };
-
 
 export default SearchUrlImage;
